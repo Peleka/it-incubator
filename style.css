@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+}
+
+.search {
+  height: 100%;
+  border: 1px solid red; 
+  border-radius: 5px;
+  padding: 15px;            /*размер кнопки и инпута больше стандартного */
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.button {
+  font-size: 18px;
+  background-color: #25ec89; 
+  padding: 14px 25px;
+  border-radius: 5px;
+  border: #25ec89;
+}
